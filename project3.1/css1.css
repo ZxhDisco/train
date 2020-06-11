@@ -1,0 +1,56 @@
+.left{
+    display: inline-block;
+    width: 30%;
+    vertical-align:top ;
+    background-color: lightgoldenrodyellow;
+}
+.left>p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.left ul{
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}
+
+.left ul>li{
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+.left ul>li a{
+    text-decoration: none;
+}
+.left ul>li a:hover{
+    color: darkgoldenrod;
+}
+.left ul>li:last-child{
+    border-bottom: 0px;
+}
+
+.right{
+    display: inline-block;
+    width: 65%;
+}
+.top{
+    width: 100%;
+    height: 180px;
+    
+}
+.foot{
+    text-align: center;
+    padding: 8px;
+    color: deepskyblue;
+}
+.price::before{
+    content:"¥" ;
+}
+.txt span>p{
+    text-indent: 2em;
+
+}
+.txt span>p>b{
+    font-size: 32px;
+}
