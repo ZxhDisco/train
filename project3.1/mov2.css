@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.icon{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin-right: auto;
+    flex-grow: 1;
+}
+
+.header{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 50px;
+    display: flex;
+    flex: 1;
+    
+    flex-direction: row;
+    align-items:center ;
+}
+.header #left{
+    color: rgb(231, 231, 218);
+    font-size: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+}
+.header #right{
+    font-size:12px ;
+}
+
+#right a:visited{
+    color: white;
+}
+
+.header img{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 10px;
+    left: 120px;
+
+}
+.center{
+    width: 1200px;
+    background-color:#4CFAFF;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+.center .row{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.center .row div{
+    height: 260px;
+    width: 170px;
+    background-color: lightgoldenrodyellow;
+    margin: 10px;
+}
+.center img{
+    width: 90%;
+    height: 220px;
+    margin-top: 10px;
+}
+#footer {
+    background-color:#810014;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    
+    color: white;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#talk{
+    width: 100%;
+    margin: 0 auto;
+}
+.footer .font{
+    font-size: 80px;
+    
+}
+.footer .img img{
+    width: 150px;
+    height: 190px;
+    right: 100px;
+    top: 50px;
+}
+hr {
+    width: 100%;
+    color: red;
+}
+.bottom hr{
+    width: 96%;
+    margin: 0 auto;
+}
+.bottom{
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
