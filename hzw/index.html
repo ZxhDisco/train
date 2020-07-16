@@ -135,6 +135,17 @@
     <script src="./libs/glide/glide.min.js"></script>
     <script src="./js/index.js"></script>
     <script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1279081965&web_id=1279081965"></script>
+    <script>
+        $('.personage').click(function()
+        { 
+            var el = $(this).children()[1];
+            var category = '爱好';
+            var action = '查看';
+            var label = el.innerText;
+            _czc.push(["_trackEvent",category,action,label,1,]);
+        }
+        );
+    </script>
 </body>
 
 </html>
